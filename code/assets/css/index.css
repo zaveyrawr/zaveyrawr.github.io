@@ -1,0 +1,37 @@
+.clip-sec {
+  height: 130.5vh;
+}
+
+.clip-sec .top-clip .hero-txt {
+  width: 100vw;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.clip-sec .top-clip .hero-txt .top-4 {
+  margin: 0 auto;
+}
+
+.clip-sec .hero-clip {
+  display: grid;
+  margin-left: 18px;
+  row-gap: 35px;
+  column-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.clip-1 {
+  border-radius: 10px;
+}
+.clip-2 {
+  border-radius: 10px;
+}
+.clip-3 {
+  border-radius: 10px;
+}
+.clip-4 {
+  border-radius: 10px;
+}
