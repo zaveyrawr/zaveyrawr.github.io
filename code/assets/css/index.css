@@ -2,6 +2,10 @@
   height: 130.5vh;
 }
 
+.top-clip {
+  margin: 0 auto;
+}
+
 .clip-sec .top-clip .hero-txt {
   width: 100vw;
   color: #ffffff;
