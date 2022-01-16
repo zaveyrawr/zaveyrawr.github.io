@@ -1,0 +1,21 @@
+.games-sec {
+  min-height: 130vh;
+  margin-top: 13px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: grid;
+  row-gap: 35px;
+  column-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 385px 385px;
+}
+.games-sec .games {
+  height: 399px;
+  border-radius: 15px;
+  border: 4px solid #19191d;
+  margin: 0 auto;
+}
+.games-sec .games img {
+  padding: 5px;
+  border-radius: 15px;
+}
