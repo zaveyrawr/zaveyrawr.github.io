@@ -15,16 +15,16 @@
   letter-spacing: 3px;
 }
 
-.clip-sec .top-clip . {
-  margin: auto;
-}
-
 .clip-sec .hero-clip {
   display: grid;
   row-gap: 35px;
   column-gap: 30px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+}
+
+.clip {
+  margin: auto;
 }
 
 .clip-1 {
