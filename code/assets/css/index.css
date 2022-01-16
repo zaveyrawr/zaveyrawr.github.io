@@ -20,7 +20,6 @@
 
 .clip-sec .hero-clip {
   display: grid;
-  margin-left: 18px;
   row-gap: 35px;
   column-gap: 30px;
   grid-template-columns: 1fr 1fr;
