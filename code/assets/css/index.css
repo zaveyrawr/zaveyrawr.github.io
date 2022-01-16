@@ -28,15 +28,15 @@
   margin: auto;
 }
 
-.clip-1 {
-  border-radius: 10px;
+.clip-1 iframe {
+  border-radius: 15px;
 }
-.clip-2 {
-  border-radius: 10px;
+.clip-2 iframe {
+  border-radius: 15px;
 }
-.clip-3 {
-  border-radius: 10px;
+.clip-3 iframe {
+  border-radius: 15px;
 }
-.clip-4 {
-  border-radius: 10px;
+.clip-4 iframe {
+  border-radius: 15px;
 }
