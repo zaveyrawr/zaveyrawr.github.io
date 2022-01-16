@@ -3,7 +3,8 @@
 }
 
 .top-clip {
-  margin: auto;
+  width:100%;
+  height: 100%;
 }
 
 .clip-sec .top-clip .hero-txt {
