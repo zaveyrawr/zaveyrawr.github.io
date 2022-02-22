@@ -1,0 +1,68 @@
+.clip-sec {
+  height: 130.5vh;
+}
+
+.top-clip {
+  width: 100%;
+  height: 100%;
+}
+
+.top-4 {
+  padding: 25px 0;
+  text-align: center;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.clip-sec .hero-clip {
+  display: flex;
+  flex-direction: column;
+}
+
+.clip {
+  margin: 5px auto 25px auto;
+}
+
+.clip-g-1 {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.clip-g-2 {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.clip-1 iframe {
+  border-radius: 15px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.clip-2 iframe {
+  border-radius: 15px;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.clip-3 iframe {
+  border-radius: 15px;
+  grid-column-start: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.clip-4 iframe {
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1284px) {
+  .clip-g-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .clip-g-2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
