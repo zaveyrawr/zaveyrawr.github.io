@@ -13,52 +13,56 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
-      <div class="navbar">
-        <div class="nav-left">
-          <div class="logo">
-            <a href="index.html"
-              ><img class="logo-img" src="../assets/images/profile.jpg" alt=""
-            /></a>
-          </div>
-          <div class="username">
-            <h1 class="username-text">zavey_rawr</h1>
-          </div>
-          <div class="line">
-            <span class="V-line"></span>
-          </div>
-          <div class="links">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"
+          ><img class="logo-img" src="../assets/images/profile.jpg" alt=""
+        /></a>
+        <div class="username">
+          <h1 class="username-text">zavey_rawr</h1>
+        </div>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="game.html">Games</a></li>
+        <li><a href="social.html">Socials</a></li>
+        <li><a href="about.html">About</a></li>
+        <li>
+          <div class="w-line"></div>
+        </li>
+        <div class="social-links">
+          <li>
             <a href="https://twitch.tv/zavey_rawr"
               ><img
                 class="twitch-icon-link"
-                src="../assets/images/twitch-icon-white.png"
-                alt=""
+                src="code/assets/images/twitch-icon-white.png"
             /></a>
+          </li>
+          <li>
             <a href="https://discord.gg/v627pUVcGS"
               ><img
                 class="discord-icon-link"
-                src="../assets/images/discord-icon-white.png"
-                alt=""
+                src="code/assets/images/discord-icon-white.png"
             /></a>
+          </li>
+          <li>
             <a href="https://www.youtube.com/channel/UC0SDf9ETITMtvwmY0I7jPZg"
               ><img
                 class="youtube-icon-link"
-                src="../assets/images/youtube-icon-white.png"
-                alt=""
+                src="code/assets/images/youtube-icon-white.png"
             /></a>
-          </div>
+          </li>
         </div>
-        <div class="nav-right">
-          <div class="pages">
-            <a href="../../index.html">Home</a>
-            <a href="code/html/game.html">Games</a>
-            <a href="code/html/social.html">Socials</a>
-            <a href="code/html/about.html">About</a>
-          </div>
-        </div>
-      </div>
-    </header>
+      </ul>
+      <button class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </button>
+    </nav>
     <script></script>
+    <script src="/code/assets/js/nav.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init({
