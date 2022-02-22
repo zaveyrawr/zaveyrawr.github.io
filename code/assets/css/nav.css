@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.active {
+  color: #649eadcb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+
+  background-color: #222327;
+  color: #ffffff;
+
+  font-family: Montserrat;
+  font-size: 11px;
+  letter-spacing: 3px;
+
+  min-height: 50px;
+  width: 100%;
+  padding: 10px 2%;
+}
+
+.logo {
+  display: inline-flex;
+
+  margin: auto 0;
+  margin-right: 350px;
+
+  width: 60px;
+  height: 45px;
+}
+.logo-img {
+  border-radius: 99px;
+  border: 3px solid #2e73cc;
+  width: 45px;
+  height: 45px;
+}
+.username {
+  margin: auto 0;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+.username-text {
+  font-size: 23px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  z-index: 888;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+
+  margin: auto 0;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 16px;
+  letter-spacing: 3.5px;
+  transition: 0.4s;
+}
+.nav-links a:hover {
+  color: #2e73cc;
+}
+
+.w-line {
+  display: none;
+  margin-left: 10px;
+  z-index: 998;
+
+  width: 175px;
+  height: 4px;
+
+  border-radius: 99px;
+
+  background-color: #ffffff;
+}
+
+.social-links {
+  display: none;
+}
+
+.twitch-icon-link {
+  width: 32px;
+  height: 25px;
+}
+.discord-icon-link {
+  width: 32px;
+  height: 25px;
+  margin-left: 7px;
+}
+.youtube-icon-link {
+  width: 42px;
+  height: 27px;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: absolute;
+  z-index: 999;
+  right: 15px;
+  top: 15px;
+}
+.burger div {
+  width: 33px;
+  height: 4px;
+
+  border-radius: 99px;
+
+  background-color: #ffffff;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+
+    border-bottom-left-radius: 85px;
+
+    position: absolute;
+
+    margin-left: 10px;
+    right: 0px;
+    height: 90vh;
+    top: 0px;
+    width: 70%;
+
+    background-color: #1e1f22;
+    opacity: 99%;
+
+    transform: translate(100%);
+    transition: 0.5s ease-in;
+  }
+  .nav-links a {
+    margin-left: 30px;
+  }
+  .w-line {
+    display: block;
+  }
+  .social-links {
+    display: flex;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .logo-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .username {
+    margin-left: 35px;
+  }
+}
+
+.x-left {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  transform: rotate(45deg);
+}
+.x-right {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  transform: rotate(-45deg);
+}
+
+.hide {
+  display: none;
+}
+
+.nav-active {
+  transform: translate(0%);
+  display: flex;
+}
